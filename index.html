@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Название компании</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./styles/css/slick-theme.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo.png" alt="logo" />
+          <div>
+            <p>Название<br />компании</p>
+            <span>самая клевая компания</span>
+          </div>
+        </div>
+        <div class="tel">
+          <a href="tel:+74997777777" title="Телефон">+7(499) 777-77-77</a>
+          <a href="tel:+74997777777" title="Телефон">+7(499) 777-77-77</a>
+        </div>
+      </div>
+    </header>
+    <div class="F2">
+      <div class="container">
+        <div class="formsection">
+          <p>Форма с кнопкой</p>
+          <form action="#" method="GET">
+            <p>
+              Оставь телефон и получи<br />
+              что-то офигенное
+            </p>
+            <input type="tel" placeholder="Введите номер" />
+            <input type="submit" value="Получить" id="submit"/>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="F3 container">
+      <p>Тут у нас слайдер</p>
+      <div class="slider">
+        <img src="./img/picture1.jpg" alt="picture1" />
+        <img src="./img/picture2.jpg" alt="picture2" />
+        <img src="./img/picture3.jpg" alt="picture3" />
+      </div>
+    </div>
+    <div class="F4 container">
+      <span>
+        Проcто текстовый блок
+      </span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure eius rem
+        amet sint repudiandae esse distinctio perferendis, eaque quam ipsam
+        atque a nulla vero aliquam expedita quaerat, tempore, natus consequatur?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe enim
+        consequuntur maiores eveniet repellendus voluptate. Eum, modi. Explicabo
+        deleniti perspiciatis amet beatae minima cum sequi. Veniam eaque vero
+        consequatur a. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Modi, aspernatur incidunt? Blanditiis sequi illo magni, natus ex, ad
+        animi fugit ut consectetur illum voluptatibus recusandae.
+      </p>
+    </div>
+    <div class="F5 container">
+      <p>
+        Калькулятор<br />
+        (Стоимость пользователь узнает по телефону)
+      </p>
+      <div class="windows">
+        <figure>
+          <img src="./img/window1.jpg" class="window1" alt="Одностворчатое" />
+          <figcaption>Одностворчатое</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/window2.jpg" class="window2" alt="Двухстворчатое" />
+          <figcaption>Двухстворчатое</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/window3.jpg" class="window3" alt="Трехстворчатое" />
+          <figcaption>Трехстворчатое</figcaption>
+        </figure>
+        <figure>
+          <img src="./img/window4.png" class="window4" alt="Балконный блок" />
+          <figcaption>Балконный блок</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./img/window5.png"
+            class="window5"
+            alt="Остекление балкона"
+          />
+          <figcaption>Остекление балкона</figcaption>
+        </figure>
+      </div>
+      <form action="#" method="GET">
+        <div class="form-choice">
+          <div class="sizes">
+            <span>высота</span>
+            <div class="window-image">
+              <span>ширина</span>
+              <img src="./img/window1.jpg" alt="Окно" />
+            </div>
+            <div class="measurements">
+              <div>
+                <label for="width">ширина, см</label>
+                <input type="text" id="width" placeholder="120"/>
+              </div>
+              <img src="./img/multiply.png" alt="multiply"/>
+              <div>
+                <label for="height">высота, см</label>
+                <input type="text" id="height" placeholder="120"/>
+              </div>
+            </div>
+          </div>
+          <div class="choice">
+            <p>Одностворчатое окно КВЕ</p>
+            <div class="criterion">
+              <p>1. Критерий выбора</p>
+              <input type="radio" id="radio1" name="criterion" />
+              <label for="radio1">пункт выбора 1</label>
+              <input type="radio" id="radio2" name="criterion"/>
+              <label for="radio2">пункт выбора 2</label>
+              <input type="radio" id="radio3" name="criterion"/>
+              <label for="radio3">пункт выбора 3</label>
+            </div>
+            <div class="opening">
+              <p>2. Выберите открывание створки</p>
+              <select>
+                <option>Не открывается</option>
+                <option>Не открывается</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="calculate">
+          <input type="tel" placeholder="Введите номер">
+          <input type="submit" value="Рассчитать">
+
+
+        </div>
+      </form>
+    </div>
+    <footer>
+      <div class="container">
+        <p>
+          просто<br />
+          скромный футер
+        </p>
+      </div>
+    </footer>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
